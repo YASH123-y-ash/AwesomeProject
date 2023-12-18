@@ -1,0 +1,160 @@
+{
+    "headers": {},
+    "tabs": [
+        {
+            "tabName": "homePage",
+            "displayName": "Home",
+            "tabOrder": 1,
+            "blocks": [
+                {
+                    "blockName": "home",
+                    "displayName": "Home",
+                    "blockType": "gridItem",
+                    "width": "",
+                    "height": "",
+                    "order": "",
+                    "fields": [
+                        {
+                            "fieldName": "myAccount",
+                            "displayName": "My Account",
+                            "physicalName": "",
+                            "mergedFields": [
+                                "AccountNumber",
+                                "ProductSegment",
+                                "ProductCategory"
+                            ],
+                            "fieldOrder": 1,
+                            "iconName": "account-balance",
+                            "fieldType": "gridItem",
+                            "fieldValidation": [],
+                            "isEditable": "N",
+                            "isMandatory": "N",
+                            "isKeyDisplayed": "Y",
+                            "gridBoxStyle": {
+                                "indentation": 0,
+                                "backgroundColor": "#E3DFFD",
+                                "borderColor": "#739072",
+                                "iconColor": "#739072",
+                                "fontWeight": "500",
+                                "fontSize": "12px",
+                                "width": 200,
+                                "height": 200
+                            },
+                            "valueStyles": {
+                                "indentation": 0,
+                                "color": "black",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            }
+                        },
+                        {
+                            "fieldName": "myReceipt",
+                            "displayName": "My Receipt",
+                            "iconName": "receipt",
+                            "physicalName": "",
+                            "sortable": "",
+                            "fieldOrder": 2,
+                            "fieldType": "gridItem",
+                            "fieldValidation": [],
+                            "isEditable": "N",
+                            "isMandatory": "N",
+                            "isKeyDisplayed": "Y",
+                            "gridBoxStyle": {
+                                "borderColor": "#FF9130",
+                                "iconColor": "#FF9130",
+                                "indentation": 0,
+                                "backgroundColor": "#E3DFFD",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            },
+                            "valueStyles": {
+                                "indentation": 0,
+                                "color": "#0088d1",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            }
+                        },
+                        {
+                            "fieldName": "searchAccounts",
+                            "displayName": "Search Accounts",
+                            "iconName": "search",
+                            "physicalName": "",
+                            "fieldOrder": 3,
+                            "fieldType": "gridItem",
+                            "fieldValidation": [],
+                            "isEditable": "N",
+                            "isMandatory": "N",
+                            "isKeyDisplayed": "Y",
+                            "gridBoxStyle": {
+                                "borderColor": "#9D44C0",
+                                "iconColor": "#9D44C0",
+                                "indentation": 0,
+                                "backgroundColor": "#E3DFFD",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            },
+                            "valueStyles": {
+                                "indentation": 0,
+                                "color": "black",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            }
+                        },
+                        {
+                            "fieldName": "myTask",
+                            "displayName": "My Task",
+                            "iconName": "task",
+                            "physicalName": "",
+                            "fieldOrder": 4,
+                            "fieldType": "gridItem",
+                            "fieldValidation": [],
+                            "isEditable": "N",
+                            "isMandatory": "N",
+                            "isKeyDisplayed": "Y",
+                            "gridBoxStyle": {
+                                "borderColor": "#E95793",
+                                "iconColor": "#E95793",
+                                "indentation": 0,
+                                "backgroundColor": "#E3DFFD",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            },
+                            "valueStyles": {
+                                "indentation": 0,
+                                "color": "black",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            }
+                        },
+                        {
+                            "fieldName": "components",
+                            "displayName": "Components",
+                            "iconName": "adb",
+                            "physicalName": "",
+                            "fieldOrder": 4,
+                            "fieldType": "gridItem",
+                            "fieldValidation": [],
+                            "isEditable": "N",
+                            "isMandatory": "N",
+                            "isKeyDisplayed": "Y",
+                            "gridBoxStyle": {
+                                "borderColor": "#E95793",
+                                "iconColor": "blue",
+                                "indentation": 0,
+                                "backgroundColor": "#E3DFFD",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            },
+                            "valueStyles": {
+                                "indentation": 0,
+                                "color": "black",
+                                "fontWeight": "500",
+                                "fontSize": "12px"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

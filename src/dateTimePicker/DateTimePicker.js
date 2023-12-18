@@ -5,7 +5,6 @@ import { View } from 'react-native'
 const DateTimePicker = () => {
   return (
    <View>
-    
    </View>
   )
 }

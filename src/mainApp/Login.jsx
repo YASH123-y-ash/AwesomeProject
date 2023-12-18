@@ -1,6 +1,6 @@
 import { View, StyleSheet, Text, Image, TextInput, Pressable, Button, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
 import React, { useState } from 'react';
-import CustomButton from '../../touchableOpacityComponent/CustomButton';
+import CustomButton from '../commonComponent/touchableOpacityComponent/CustomButton';
 
 const Login = () => {
 
@@ -31,7 +31,7 @@ const Login = () => {
                 <View style={[styles.imageContainer]}>
                     <Image
                         key={"user-info-123456"}
-                        source={require('../../assets/photo/avatarUserLogo.png')}
+                        source={require('../assets/photo/avatarUserLogo.png')}
                         style={{ width: 110, height: 110, resizeMode: 'cover', borderRadius: 50 }}
                     />
                 </View>
